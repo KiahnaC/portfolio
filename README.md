@@ -6,4 +6,4 @@ User should be able to view webpage consisting of congact information, an about 
 
 
 https://github.com/KiahnaC/portfolio/issues/1#issue-1046665565 
-file:///Users/kiahnacarmack/Downloads/Documents/homework/portfolio/index.html
+https://kiahnac.github.io/portfolio/
