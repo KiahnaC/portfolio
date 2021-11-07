@@ -1,68 +1,83 @@
 
- .header{display: flex;
+.header-style{
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    height: 30vh;
+    font-size: 450%;
+    font-family: monospace;
+    text-align: center;
+    background-image: url(austinimg.jpeg);
+    background-position: center;
+    background-size: cover;
+   }
+.photo{
+    border-style: solid;
+    border-color: black;
+    float: left;
+    width: 90%;
+    padding: 2px;
+    margin: 3%;
+}
+
+   
+.column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 600px; 
+    margin: 3%;
+    border-color: black;
+    border-style: solid;
+   }
+  .column{
+    display: inline-flex;
     flex-wrap: wrap;
-     border-style: ridge;
-       padding: 20px;
-       margin: 10px;
-       border-color: yellow;
-      }
-
- nav{ display: inline-block;
-  margin-left: 900px;
-}
-button{background-color: #FFFFE0;}
-
- body{background-image:url(background.jpeg);
-    background-size: cover;   
-    background-attachment: fixed;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 600px; 
+    margin: 3%;
+    border-color: black;
+    border-style: solid;
  }
-       
-
- .main{display: flex;
-flex-wrap: wrap;
-position: relative;
-border-style: ridge;
-border-color: yellow;
-margin: 25px;
-width: 250px;
-float: right;
-padding: 5%;
-;
-
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  body{
+      background-image:linear-gradient(#CAA4EB, #F2C7C7);
+  }
+ .contact-text{
+    text-decoration: underline;
  }
- .intro-header{font-style: italic;
-text-decoration: underline;
-font-size: 48px;}
-
-.intro{ font-weight: bold;
-  font-size: 24px;
+.about-me-text{
+    text-decoration: underline;
+}
+.project-text{
+    text-decoration: underline;
 }
 
-.photo{display: flex;
-  flex-wrap: wrap;
-  float: right;
-}
-
-.main-projects{ border-style: ridge;
-border-color: yellow;
-display: flex;
-flex-wrap: wrap;
-box-sizing: content-box;
-height: 300px;
-margin: 40px;
-}
-.text{ font-size: 72px;
-}
+  
 
 
- @media screen and (max-width: 992px) {
-  header {
-    background: #772014;
-  }
+
+
+
+
+
+
+  
+@media only screen and (max-width: 1200px){
+
 }
-@media screen and (max-width: 768px) {
-  nav {
-    background-color: #bb8588;
-  }
+@media only screen and (max-width: 600px){
+	
 }
-    
+@media only screen and (max-width: 425px){
+	
+}
+
+  
+  
